@@ -3,7 +3,7 @@ export HISTFILESIZE=10000000
 export HISTSIZE=10000000
 
 #setopt INC_APPEND_HISTORY
-export HISTTIMEFORMAT="[%F %T] "
+#export HISTTIMEFORMAT="[%F %T] "
 
 #setopt EXTENDED_HISTORY
 #setopt HIST_FIND_NO_DUPS
@@ -25,5 +25,3 @@ plugins=(
 )
 
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
-
-ZSH_THEME="robbyrussell"
