@@ -32,5 +32,3 @@ plugins=(
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 ZSH_THEME="robbyrussell"
-
-source ~/.zshrc
