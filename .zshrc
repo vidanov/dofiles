@@ -33,4 +33,4 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 ZSH_THEME="robbyrussell"
 
-source $ZSH/oh-my-zsh.sh
+source ~/.zshrc
