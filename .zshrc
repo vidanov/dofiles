@@ -1,17 +1,12 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-
-export HISTFILE=~/.zsh_history
-
+#export HISTFILE=~/.zsh_history
 export HISTFILESIZE=10000000
 export HISTSIZE=10000000
 
-setopt INC_APPEND_HISTORY
+#setopt INC_APPEND_HISTORY
 export HISTTIMEFORMAT="[%F %T] "
 
-setopt EXTENDED_HISTORY
-setopt HIST_FIND_NO_DUPS
+#setopt EXTENDED_HISTORY
+#setopt HIST_FIND_NO_DUPS
 
 
 plugins=(
