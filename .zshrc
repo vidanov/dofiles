@@ -90,6 +90,7 @@ plugins=(  aws
   z)
   ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -119,3 +120,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
+
+alias tfay='terraform apply -auto-approve'
+alias tfs='terraform state'
+alias tfsl='terraform state list'
+alias tfsrm='terraform state rm'
