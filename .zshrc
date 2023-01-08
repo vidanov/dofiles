@@ -125,3 +125,4 @@ alias tfay='terraform apply -auto-approve'
 alias tfs='terraform state'
 alias tfsl='terraform state list'
 alias tfsrm='terraform state rm'
+alias ntfy=~/./ntfy.sh
